@@ -68,7 +68,7 @@ export const getOrdersByEmail = async (req: Request, res: Response) => {
     } else {
       res
         .status(500)
-        .json({ success: false, message: "An unknown error occurred" });
+        .json({ success: false, message: "An unknown error occurre" });
     }
   }
 };
